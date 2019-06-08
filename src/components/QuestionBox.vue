@@ -60,7 +60,7 @@ export default {
     }
   },
   // Watch method takes an object of functions and we can watch for changes to our props
-  //Watch functions can be made into objects with some options, this we we can shuffle the first question as well 
+  //Watch functions can be made into objects with some options, this way we can shuffle the first question as well 
   //the immediate function will make sure we do this handler function before it first updates
   watch: {
     currentQuestion: {
