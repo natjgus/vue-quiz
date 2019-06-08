@@ -2,7 +2,8 @@
     <div class="question-box-container">
       <b-jumbotron lead="Bootstrap 4 Components for Vue.js 2">
         <template slot="lead">
-          {{ currentQuestion.question }}
+          <h5 v-html="currentQuestion.question">
+          </h5>
         </template>
 
         <hr class="my-4">
